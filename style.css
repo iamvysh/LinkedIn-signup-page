@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    
+}
+.left{
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+}
+.middle{
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.right{
+    width: 20%;
+    height: 100%;
+    background-color:white;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    
+
+}
+li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right .button{
+    width: 30%;
+    height:70%;
+    border-radius: 20px;
+    border-color:  #0a66c2;;
+    border-width: 1px;
+    color:  #0a66c2;;
+    background-color: white;
+    
+    
+}
+.right span{
+    
+    margin-left: 0;
+    opacity: .7;
+}button{
+    margin-left: 18px;
+}
+/* .material-icons{
+    opacity: 0.6;
+} */
+/* .a{
+    opacity: 0.6;
+} */
+/* .a:hover{
+    opacity: 1;
+} */
+main{
+    width: 100%;
+    height: 90%;
+    background-color: aqua;
+    display: flex;
+    
+}
+.main-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+.main-right{
+    width: 50%;
+    height: 100%;
+    background-image: url(body.png);
+    background-size: cover;
+}
+
+.main-left-up{
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-left-down{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: medium;
+}
+/* .body-image{
+    width: 100vh;
+    height: 100vh;
+} */
+.welcome{
+    font-size:40px;
+    padding-right: 20px;
+    letter-spacing: 5px;
+    color:brown;
+    opacity: .9;
+    
+    
+}
+.email-div{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding-top: 20px;
+    width: 350px;
+    
+
+}
+.password-div{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding-top: 50px;
+}
+.forgot-password{
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+    padding-top: 30px;
+}
+.forgot{
+    font-size: 18px;
+    padding-bottom: 25px;
+    color: #0a66c2;
+}
+#signin{
+
+    height: 45px;
+    border-radius: 100px;
+    border: solid;
+    border-width: 1px;
+    background-color: #0a66c2;
+    color: white;
+    font: 1em sans-serif;
+
+}
+.google{
+    display: flex;
+    flex-direction: column;
+}
+.new-user{
+    display: flex;
+    flex-direction: column;
+}
+.email{
+    height: 60px;
+    border-radius: 10px;
+    width: 400px;
+    border: solid;
+    border-width: 1px;
+}
+.common{
+    height: 45px;
+    border-radius: 100px;
+    border: solid;
+    border-width: 1px;
+
+}
+.google{
+    position: relative;
+    margin-top: 80px;
+}
+.move-google{
+    position: absolute;
+    top:12px;
+    left:140px;
+    opacity: .8;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.new-user{
+    margin-top: 5px;
+    position: relative;
+}
+.user{
+    position: absolute;
+    top:12px;
+    left:120px;
+    font-weight: bolder;
+    opacity: .8;
+    letter-spacing: 1px;
+    
+
+}
+.email-space{
+    margin-bottom: 7px;
+    opacity: .8;
+}
+/* .material-icons:hover{
+
+    opacity: 1;
+} */
+
+
+.email:hover{
+    border-width: 2px;
+    border-color: #000;
+}
+#signin:hover{
+    background-color: hsl(211, 86%, 30%);
+}
+.button:hover{
+    color: #000;
+    
+    background-color:#f3f3fae0 ;
+}
+.move-google:hover{
+    opacity: 1;
+}
+.user:hover{
+    opacity: 1;
+}
+.tohover{
+    opacity:.75 ;
+}
+.tohover:hover{
+    opacity:1;
+}
+
+    
